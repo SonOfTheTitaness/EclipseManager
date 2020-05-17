@@ -22,8 +22,9 @@
     	var argus = [].slice.call(arguments);
 	//alert(argus);
 	if (argus.length > 0)
-	   if (argus[0].includes("itemid"))
-		argus[0] = argus[0].replace(',"csrf_token', ',"folderids":[81696859],"csrf_token');
+	   if (argus[0]!=null)	
+	   	if (argus[0].includes("itemid"))
+			argus[0] = argus[0].replace(',"csrf_token', ',"folderids":[81696859],"csrf_token');
 		
 	//alert(argus);
 	return orgSend.apply(this, argus);
