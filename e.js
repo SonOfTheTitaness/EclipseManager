@@ -27,7 +27,7 @@
 	   	if (argus[0].includes("itemid"))
 			argus[0] = argus[0].replace(',"csrf_token', ',"folderids":[81696859],"csrf_token');
 		argus[0] = argus[0].replace('h\\":1060,\\"w\\":754','h\\":200,\\"w\":200');
-		argus[0] = argus[0].replace('h\\":1801,\\"w\\":1280','h\\":200,\\"w\":200');
+		argus[0] = argus[0].replace('h\\":1801,\\"w\\":1280','h\\":200,\\"w\\":200');
 		}
 	//alert(argus);
 	return orgSend.apply(this, argus);
