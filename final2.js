@@ -65,8 +65,8 @@ if (myDiv != null)  myDiv.scrollTo = function() {};
 		
 		tempo = replaceTimes(tempo,',\\"f\\":', '}\\"f\\":', 2);
 
-		tempo = replaceInternal(tempo, '200', '\\"h\\":', ','); 	
-		tempo = replaceInternal(tempo, '200', '\\"w\\":', '}'); 	
+		tempo = replaceInternal(tempo, '150', '\\"h\\":', ','); 	
+		tempo = replaceInternal(tempo, '150', '\\"w\\":', '}'); 	
 
 		tempo = replaceTimes(tempo,'}\\"f\\":', ',\\"f\\":', 2);
 
